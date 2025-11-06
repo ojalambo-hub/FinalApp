@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@color/green1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="الواجبات"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp" />
+
+                <TextView
+                    android:id="@+id/total_assignments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="عدد كل الواجبات"
+                    android:textSize="22sp"
+                    android:textColor="@color/main1"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/pending_assignments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="المعلقة"
+                    android:textSize="22sp"
+                    android:textColor="@color/main1"
+                    android:textStyle="bold"                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/in_progress_assignments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جارية"
+                    android:textSize="22sp"
+                    android:textColor="@color/main1"
+                    android:textStyle="bold"                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/submitted_assignments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تمت"
+                    android:textSize="22sp"
+                    android:textColor="@color/main1"
+                    android:textStyle="bold"                    />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/green1"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/assignment_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المادة"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/main1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/assignment_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عنوان "
+            android:textSize="18sp"
+            android:textColor="@color/main1"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/assignment_due_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الوقت "
+            android:textSize="15sp"
+            android:textColor="#666"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/assignment_status"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="الحالة"
+            android:textSize="12sp"
+            android:padding="4dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:background="#D19191"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
