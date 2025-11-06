@@ -4,5 +4,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="profile_picture">Profile Picture</string>
     <string name="student_name"> اسامة محمد ابو جلمبو </string>
+    <string-array name="assignment_statuses">
+        <item>معلق</item>
+        <item>قيد التنفيذ</item>
+        <item>تم التسليم</item>
+    </string-array>
 
 </resources>
